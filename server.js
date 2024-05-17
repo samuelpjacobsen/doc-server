@@ -14,6 +14,7 @@ app.get('/laudo.pdf', (req, res) => {
   const filePath = path.join(__dirname, 'public', 'laudo.pdf');
   res.sendFile(filePath);
 });
+  
 
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
