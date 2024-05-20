@@ -1,4 +1,4 @@
-# PDF Server
+# Doc Server
 
 Este é um projeto simples de servidor web usando Express.js que serve arquivos estáticos, como PDFs, para teste. Ele utiliza CORS para permitir solicitações de outros domínios.
 
