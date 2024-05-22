@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-app.get('/laudo.pdf', (req, res) => {
+app.get('/laudomedico', (req, res) => {
   const filePath = path.join(__dirname, 'public', 'laudo.pdf');
   res.sendFile(filePath);
 });
